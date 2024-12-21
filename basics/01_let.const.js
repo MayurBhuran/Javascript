@@ -14,7 +14,9 @@ accountCity = "channei"
 console.log(accountId);
 
 console.table([accountEmail,accountId,accountCity,accountPassword,accountState ])
-dfh
+
+
+
 
 
 
