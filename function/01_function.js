@@ -33,7 +33,7 @@ function loginuserMessage(username = "sam"){
   return `${username} just log in `
 }
 
-//clogonsole.log(loginuserMessage("Samir"));
+//console.log(loginuserMessage("Samir"));
  
 //console.log(loginuserMessage("nick"));
 
