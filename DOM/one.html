@@ -5,20 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>DOM Learning</title>
   <style>
-    .bg-black{
-      background-color: #212121;
-      color: aliceblue;
+    body{
+     background-color: #1a1a1a;
+     color: #fff;
+     text-align: center;
+    }
+
+    .highLight {
+      background-color: yellow;
+      font-weight: bold;
+      color: #1a1a1a;
+    }
+    .hidden {
+      display: none;
     }
   </style>
 </head>
 <body class="bg-black">
   <div class="bg-black">
-    <h1 id="title" class="heading" >DOM Learning chai aur code 
-    <span>text text </span></h1>
-    <h2>Lorem ipsum dolor sit amet consectetur.</h2>
-    <h3>Lorem ipsum dolor sit amet, consectetur adipisicing.</h3>
-    <h4>Lorem ipsum dolor sit.</h4>
-    <p>loren ispsaun, asbiabciasb</p>
+    <h1 >JAvascript DOM Fun Examples</h1>
+    <!--example No 1 ; accessing DOM Elements-->
+    <section>
+    <h2>Accessing DOM Elements--</h2>
+    <p id="myParagraph">This is the button to change me!</p>
+    <button id="changeTextButton">Change Text</button>
+    </section>
+
+    
     <input type="password" name="" id="">
     <ul>
         <li class="list-item">one</li>
@@ -29,5 +42,55 @@
     
     </ul>
   </div>
+  <!--traveersing the dom-->
+  <section id="exaample-2">
+    <h2>Traversing The Dom</h2>
+    <ul id="citieslist">
+      <li class="chai">New York</li>
+      <li>Tokyo</li>
+      <li>London</li>
+      <li>Paris</li>
+      <li>Chicgo</li>
+    </ul>
+    <button id="highLightFirstCity">HighLight First City
+    </button>
+  </section>
+
+  <!--exaample no 3-->
+  <section id ="exaample-3">
+    <h2>manipulating the DOM elemnts</h2>
+    <div >Order : <span id="coffeeType">
+    latte</span></div>
+    <button id="changeOrder">change the order to Espresso</button>
+
+  </section>
+  <!--exaample no 4-->
+  <section id="exaample-4">
+    <h2>creating and inserting the elemnts</h2>
+    <button id="addNewItem"> Add a New item to the
+      Shopping list  </button>
+    <ul id="shoppingList">
+      <li>bread</li>
+      <li>Milk</li>
+      </ul>
+  </section>
+  <!--ex 6: event handling-->
+  <section id="exaample-6">
+    <h2>Event Handling in The DOM</h2>
+    <button id="clickMeButton">Click Me</button>
+  </section>
+   <!--ex 7: event Delegation -->
+
+   <section id="exaample-7">
+   <h2>Event Delegation</h2>
+   <ul id="tealist">
+     <li class="teaItem"></li>Green Tea</li>
+     <li class="teaItem"></li>Black Tea</li>
+     <li class="teaItem"></li>Dolong Tea</li>
+    </ul>
+    <p>Click On any tea to select it!</p>
+    </section>
+     <script src="script.js"></script>
+  
 </body>
 </html>

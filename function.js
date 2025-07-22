@@ -44,3 +44,30 @@ function createteamaker(name) {
 let teamaker =createteamaker("hitesh");
 let result =teamaker("green tea")
 console.log(result);
+
+//squre of number
+
+let nums =[2,3,4,5,6]
+
+nums.forEach((num) => {
+  console.log(` The Square of ${num} is ${num*num}`);
+
+  
+  console.log(` The Cube of ${num} is ${num*num*num}`);
+  
+})
+
+let number = [23,45,66,78]
+
+let newarr = number.map((val)=>
+  {
+    return val * val;
+  })
+
+  console.log(newarr);
+
+let calsqure=(number)=> {
+  console.log(number * number);
+  
+}
+  

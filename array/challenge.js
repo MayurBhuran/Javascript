@@ -2,7 +2,7 @@
 
 let Cities = ["tokiyo","paris", "london" ,"usa","shikago"]
 
-const ThirdCity = Cities[3] ;
+const ThirdCity = Cities[2] ;
 
 console.log(ThirdCity);
 

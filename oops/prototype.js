@@ -4,7 +4,7 @@ let lenovo ={scrren:"4k",
 }
 let Tomhardware={}
 
-// console.log(`lenovo`,lenovo.__proto__);
+ console.log(`lenovo`,lenovo.__proto__);
 
 let genariccar = {tyres:4}
 

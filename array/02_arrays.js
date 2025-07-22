@@ -26,3 +26,4 @@ let score2 = 1278
 let score3 = 166
 
 console.log(Array.of(score1,score2,score3))
+

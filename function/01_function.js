@@ -12,7 +12,7 @@ function saymyname () {
 saymyname() //execution
 
 function addTwonumber(number1,number2){
-  console.log(number1 +number2); 
+  // console.log(number1 +number2); 
   
 }
 function addTwonumber(number1,number2){
@@ -21,7 +21,7 @@ function addTwonumber(number1,number2){
   
   return number1+ number2
 }
-const result = addTwonumber(33,"45")
+// const result = addTwonumber(33,"45")
 
 //console.log("result: ",result);
 
@@ -43,7 +43,7 @@ function CalclulateCartPrice(val1,val2,...num1) {
   return num1
 }
  
-console.log(CalclulateCartPrice(200,300,45000,2310));
+// console.log(CalclulateCartPrice(200,300,45000,2310));
 
 const user = {
   username : "kiran",
@@ -51,11 +51,11 @@ const user = {
 }
 
 function handleobjet(anyobject) {
-  console.log(`username is ${anyobject.username} and the price is ${anyobject.price}`);
+   console.log(`username is ${anyobject.username} and the price is ${anyobject.price}`);
   
 }
 
-//handleobjet(user)
+handleobjet(user)
 
 handleobjet({
   username:"ravi",

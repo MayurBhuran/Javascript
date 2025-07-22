@@ -14,14 +14,16 @@ console.log(gamename.length);
 console.log(gamename.toUpperCase());
 console.log(gamename.toLocaleUpperCase());
 console.log(gamename.charAt(15));
-const newstring = gamename.substring(0,5)
 
+const newstring = gamename.substring(0,5)
 console.log(newstring);
 
-const anotherString = gamename.slice(-18,-11)
+const anotherString = gamename.slice(18,-1)
 console.log(anotherString)
 
-const newstring1 = "   Chaiaurcode   "
+const newstring1 = "  Chaiaurcode   "
 console.log(newstring1);
-console.log(newstring1.trim());
+console.log(newstring1.trim(2,6));
 
+let res = gamename.concat(newstring1)
+console.log(res)
